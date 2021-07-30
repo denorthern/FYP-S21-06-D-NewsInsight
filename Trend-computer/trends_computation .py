@@ -347,78 +347,10 @@ t6.join()
 t7.join()
 t8.join()
 t9.join()
-
-lk
-start_date = date(2021,3,14)    #  start date from which treb=nds need to be calculated
-end_date = date(2021,7,22)      # end date to which trends need to be calculated
-numOfDays=1   # trends for how many number of days i.e weekly daily monthly etc
-
-######################################daily###########
-source='tass' 
-tass=TrendComputation()
-tass.helper(source,start_date,end_date,numOfDays)
-
-
-source='xinhua' 
-xinhua=TrendComputation()
-xinhua.helper(source,start_date,end_date,numOfDays)
-
-source='sputnik' 
-sputnik=TrendComputation()
-sputnik.helper(source,start_date,end_date,numOfDays)
-
-source='scmp' 
-scmp=TrendComputation()
-scmp.helper(source,start_date,end_date,numOfDays)
-
-source='all' 
-all=TrendComputation()
-all.helper(source,start_date,end_date,numOfDays)
-
-start_date = date(2021,3,14)    #  start date from which treb=nds need to be calculated
-end_date = date(2021,7,22)      # end date to which trends need to be calculated
-numOfDays=7   # trends for how many number of days i.e weekly daily monthly etc
-
-######################################daily###########
-#source='tass' 
-#tass=TrendComputation()
-#tass.helper(source,start_date,end_date,numOfDays)
-
-
-#source='xinhua' 
-#xinhua=TrendComputation()
-#xinhua.helper(source,start_date,end_date,numOfDays)
-
-#source='sputnik' 
-#sputnik=TrendComputation()
-#sputnik.helper(source,start_date,end_date,numOfDays)
-
-#source='scmp' 
-#scmp=TrendComputation()
-#scmp.helper(source,start_date,end_date,numOfDays)
-
-#source='all' 
-#all=TrendComputation()
-#all.helper(source,start_date,end_date,numOfDays)
-
-# source='xinhua'             
-# start_date = date(2021,4,1)    
-# end_date = date(2021,5,9)    
-# numOfDays=1   
-# t2=TrendComputation()
-# t2.helper(source,start_date,end_date,numOfDays)
-
-# source='scmp'             
-# start_date = date(2021,4,1)    
-# end_date = date(2021,5,9)    
-# numOfDays=1   
-# t2=TrendComputation()
-# t2.helper(source,start_date,end_date,numOfDays)
-
-# source='tass'             
-# start_date = date(2021,4,1)    
-# end_date = date(2021,5,9)    
-# numOfDays=1   
-# t2=TrendComputation()
-# t2.helper(source,start_date,end_date,numOfDays)
+#references
+#Python | Named Entity Recognition (NER) using spaCy https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy/.  Accessed May 18,2021
+#Train Custom NAMED ENTITY RECOGNITION (NER) model using BERT https://www.youtube.com/watch?v=uKPBkendlxw. Accessed May 22,2021
+#How to Clean Text for Machine Learning with Python https://machinelearningmastery.com/clean-text-machine-learning-python/. Accessed May 5,2021
+#Tf-Idf vectorize https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html. Accessed June12,2021
+#Categorizing and POS Tagging with NLTK Python https://medium.com/@muddaprince456/categorizing-and-pos-tagging-with-nltk-python-28f2bc9312c3. Accessed May 10,2021
 
