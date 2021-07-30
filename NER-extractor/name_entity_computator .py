@@ -278,3 +278,11 @@ t5.join()
 t6.join()
 t7.join()
 t8.join()
+
+
+#Python | Named Entity Recognition (NER) using spaCy https://www.geeksforgeeks.org/python-named-entity-recognition-ner-using-spacy/.  Accessed May 18,2021
+#Train Custom NAMED ENTITY RECOGNITION (NER) model using BERT https://www.youtube.com/watch?v=uKPBkendlxw. Accessed May 22,2021
+#How to Clean Text for Machine Learning with Python https://machinelearningmastery.com/clean-text-machine-learning-python/. Accessed May 5,2021
+#Tf-Idf vectorize https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html. Accessed June12,2021
+#Categorizing and POS Tagging with NLTK Python https://medium.com/@muddaprince456/categorizing-and-pos-tagging-with-nltk-python-28f2bc9312c3. Accessed May 10,2021
+
