@@ -21,8 +21,9 @@ News Sources:
 
 ### NER-extractor
 1. Data pre-processing
-2. POS tagging
+2. NER Categorization
 3. Entity extraction
+
 
 ## **3. Trend computation** 
 
